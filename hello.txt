@@ -1,1 +1,6 @@
 git config test
+
+jmeter -n -t <PATH(.jmx)> -l <PATH(.csv)> -e -o <PATH(empty folder)>
+.csv file must be empty or non--exist
+report folder must be empty
+otherwise code will not work
